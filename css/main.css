@@ -1,0 +1,171 @@
+/***** Grid *****/
+
+.full-width {
+	margin: 0 auto;
+	width: 1200px;
+}
+.half-width {
+	float: left;
+	width: 600px;
+}
+.third-width {
+	float: left;
+	width: 400px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+/***** Base Styles *****/
+
+body p {
+	font-family: 'roboto', sans-serif;
+	font-size: 24px;
+}
+body {
+	margin: 0;
+}
+main {
+	margin: 0;
+}
+
+/***** Header *****/
+
+header {
+	height: 800px;
+	background-image: url(../img/hero-image.png);
+	background-position: cover;
+}
+header h1 {
+	font-size: 60px;
+	font-family: 'roboto slab', serif;
+	text-decoration: bold;
+	clear: both;
+	padding-top: 250px;
+	padding-left: 400px;
+	padding-right: 250px;
+	color: #ffd11a;
+}
+header h2 {
+	font-size: 48px;
+	font-family: 'roboto', sans-serif;
+	clear: both;
+	padding: 0 250px 250px 250px;
+	text-align: center;
+	font-weight: 400;
+}
+
+/***** portfolio *****/
+
+#portfolio {
+	height: 1450px;
+	background-color: #ffffff;
+}
+#portfolio h3 {
+	font-family: 'roboto slab', serif;
+	font-size: 36px;
+	padding-left: 500px;
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#portfolio p {
+	padding: 0px 20px 20px 0px;
+	clear: both;
+	font-weight: 400;
+}
+#portfolio img {
+	padding: 5px 20px 20px 0px;
+	clear: both;
+}
+#portfolio .full-width {
+	clear: both;
+	margin: 10px;
+}
+#portfolio h5 {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+#portfolio a {
+	text-decoration: none;
+	color: black;
+}
+
+/***** about *****/
+
+#about {
+	height: 650px;
+	background-color: #087e8b;
+	margin: 0 auto;
+}
+#about h3 {
+	font-family: 'roboto slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	padding-top: 50px;
+	padding-left: 500px;
+	padding-bottom: 100px;
+	margin: 10px;
+	color: white;
+}
+#about span {
+	font-family: 'roboto', sans-serif;
+	font-size: 24px;
+	color: white;
+	font-weight: 700;
+}
+#about p {
+	color: white;
+	padding-top: 25px;
+}
+
+/***** Footer *****/
+
+footer {
+	clear: both;
+	height: 450px;
+	background-color: #095156;
+	margin: 0;
+}
+footer .full-width {
+	clear: both;	
+}
+footer .third-width {
+	margin: 0 auto;
+}
+footer ul li {
+	display:inline-block;
+	color: white;
+}
+footer ul {
+	word-spacing: 50px;
+	padding-left: 70px;
+}
+footer h5 {
+	font-family: 'roboto' sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	padding left: 150px;
+	text-align: center;
+	color: white;
+}
+footer p a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+footer p {
+	color: white;
+	text-align: center;
+}
+footer h3 {
+	font-family: 'roboto slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	padding-top: 50px;
+	padding-left: 470px;
+	padding-bottom: 50px;
+	margin: 10px;
+	color: white;
+}
